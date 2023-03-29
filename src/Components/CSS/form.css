@@ -1,0 +1,57 @@
+.form_heading {
+    color: black;
+}
+
+.form {
+    text-align: center;
+    line-height: 100px;
+}
+
+label {
+    font-size: x-large;
+    font-family: serif;
+}
+
+
+input,
+button {
+    height: 60px;
+    width: 250px;
+    background-color: rgb(204, 226, 241);
+    border: 2px solid;
+    border-radius: 40px;
+}
+
+input {
+    border-bottom-color: gray;
+    border-right-color: gray;
+    font-size: x-large;
+    text-align: center;
+}
+
+button {
+    font-size: x-large;
+}
+
+
+.parent {
+    width: 82%;
+    height: max-content;
+    margin: auto;
+    margin-top: 110px;
+    background-color: rgb(204, 226, 241);
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    
+}
+
+.child {
+    background-color: rgb(245, 157, 188);
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 40px;
+}
